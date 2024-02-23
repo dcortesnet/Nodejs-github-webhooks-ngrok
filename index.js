@@ -9,7 +9,7 @@ let events = [];
 
 app.post("/hook", (req, res) => {
   console.log("Capture event of Github WebHook");
-  events.push(req.body);
+  console.log(req.body);
   return res.status(200).end();
 });
 
