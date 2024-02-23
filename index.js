@@ -2,14 +2,13 @@ const express = require("express");
 const app = express();
 const port = 3000;
 
-// Middleware
 app.use(express.json());
 
 let events = [];
 
 app.post("/hook", (req, res) => {
   console.log("Capture event of Github WebHook");
-  console.log(req);
+  events.push(req.body);
   return res.status(200).end();
 });
 
