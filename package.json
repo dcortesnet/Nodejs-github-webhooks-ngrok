@@ -1,0 +1,15 @@
+{
+  "name": "nodejs-github-webhooks-ngrok",
+  "version": "1.0.0",
+  "description": "Repository with examples and basic exercises of Github Webhook (push, pull request, merge, etc). This repository is part of a self-taught supplemental course to help students develop skills.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
